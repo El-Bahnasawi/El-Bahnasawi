@@ -1,5 +1,5 @@
 ### Hi there 👋, My name is Mahmoud
-![](https://cdn.dribbble.com/users/1187002/screenshots/14959792/media/9959637980ba12af8d58d6a9d35ef31b.jpg?resize=400x0)
+![](https://media.licdn.com/dms/image/C4D12AQGULB6eKdE_Uw/article-cover_image-shrink_720_1280/0/1570685436791?e=2147483647&v=beta&t=gIRTs9AT6MV3hT6JZLP6yFKW6sPXSwZywCTmqG2-wKI)
 
  👨‍💻 Senior at Zewail City of Science and Technology | 🔍 Passionate about data science in the business domain
 
