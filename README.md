@@ -4,4 +4,4 @@
 👨‍💻 Senior at Zewail City of Science and Technology | 🔍 Passionate about data science in the business domain
 
 - 📫 How to reach me: medoxz543@gmail.com
-- LinkedIn: [Click here](https://www.linkedin.com/in/mahmoud-el-bahnasawi-1b2376264/)
+- LinkedIn: [Click here](https://www.linkedin.com/in/melbahnasawi/)
