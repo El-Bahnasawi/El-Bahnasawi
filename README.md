@@ -4,4 +4,4 @@
 👨‍💻 Senior at Zewail City of Science and Technology | 🔍 Passionate about data science in the business domain
 
 - 📫 How to reach me: m.elbahnasawi.ai@gmail.com
-- LinkedIn: [Click here](https://www.linkedin.com/in/melbahnasawi/)
+- LinkedIn: [Click here](https://www.linkedin.com/in/mahmoud-elbahnasawi/)
