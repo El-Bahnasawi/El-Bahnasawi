@@ -8,7 +8,7 @@ I build and deploy practical machine learning systems with a strong focus on NLP
 
 ## 🚀 What I Do
 
-- 🔭 **Practical NLP:** Building and fine-tuning transformer models for real applications
+- 🔭 **Practical NLP:** Fine-tuning transformer models for real applications
 - 🎯 **Production Focus:** Taking models from notebooks to deployed services
 - 📊 **Clear Communication:** Creating visualizations and documentation that make complex ideas understandable
 - 📝 **System Design:** Using **Mermaid diagrams** to plan and explain architectures
@@ -32,7 +32,7 @@ I build and deploy practical machine learning systems with a strong focus on NLP
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge&logo=matplotlib&logoColor=white)
 ![Mermaid](https://img.shields.io/badge/Mermaid-FF6B6B?style=for-the-badge&logo=mermaid&logoColor=white)
 
-### **📊 Data Engineering**
+### **📊 Data Manipulation**
 ![Pandas](https://img.shields.io/badge/Pandas-2C2D72?style=for-the-badge&logo=pandas&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 
