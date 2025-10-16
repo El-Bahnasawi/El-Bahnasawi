@@ -44,28 +44,43 @@ Built sub-second hate-speech moderation with **BERTweet + LoRA**, FastAPI on GPU
 ### TL;DR
 Three-tier pipeline: **regex pre-filter** → **LoRA-tuned BERTweet** → **decision service**. Real-time moderation via browser extension and web UI, with Supabase feedback for continuous learning.
 
-### System Architecture
-![Hate Speech Moderation System](0.png)
-
-### Results
+### 🎯 Results That Matter
 - **84.5% Macro-F1** on 530k+ tweets (beats MetaHate by +4.5%)
-- **1.4% weights updated** via LoRA - highly parameter-efficient
+- **1.4% weights updated** via LoRA - highly parameter-efficient  
 - **Sub-second inference** on GPU-backed FastAPI
 - **Active learning** pipeline with Supabase feedback storage
 
-### Decision Logic
-| Hate Score | Action | UI |
-|------------|--------|-----|
-| < 0.40 | Allow | 🟢 |
-| 0.40 - 0.99 | Flag/Review | 🟠 |
-| = 1.00 | Block | 🔴 |
+### 🔥 System Architecture - See the Magic!
+<details>
+<summary>🚀 **CLICK TO SEE THE FULL SYSTEM FLOW** → *This is where the engineering happens!*</summary>
+<br>
 
-### Live
-- **Code**: https://github.com/El-Bahnasawi/AI-Powered-Textual-Hate-Content-Moderation  
-- **Demo**: https://hate-speech-detection-app.streamlit.app/
-- **Metrics**: https://wandb.ai/medoxz543-zewail-city-of-science-and-technology/Textual%20Hate%20Content%20Moderation%20with%20BERTweet%20%2B%20LoRA
-- **Model**: https://huggingface.co/medoxz543/hate-speech
+![Hate Speech Moderation System Architecture](system_overview.png)
 
+**🎯 How It Actually Works:**
+- **Real-time Input**: Browser extension + Streamlit demo capture user text
+- **Smart Filtering**: Regex catches obvious slurs → BERTweet handles nuanced cases  
+- **GPU Power**: Hugging Face Spaces with T4 GPU for lightning inference
+- **Continuous Learning**: Supabase stores edge cases to make the model smarter
+- **Instant Decisions**: Three clear thresholds with visual feedback
+
+*This isn't just a model - it's a production system that learns and improves!*
+</details>
+
+### ⚡ Smart Decision Logic
+| Hate Score | Action | Blocked By | UI |
+|------------|--------|------------|----|
+| < 0.40 | ✅ Allow | - | 🟢 |
+| 0.40 - 0.99 | 🚫 Block | **Fine-tuned BERTweet** | 🟠 |
+| = 1.00 | 🚫 Block | **Regex Rules** | 🔴 |
+
+**Key Insight**: Regex handles obvious cases instantly, BERTweet catches nuanced hate speech!
+
+### 🔗 Live & Working Right Now
+- **📁 Full Code**: [AI-Powered-Textual-Hate-Content-Moderation](https://github.com/El-Bahnasawi/AI-Powered-Textual-Hate-Content-Moderation)  
+- **🎯 Try the Demo**: [Live Streamlit App](https://hate-speech-detection-app.streamlit.app/)
+- **📊 Real Training Logs**: [W&B Dashboard](https://wandb.ai/medoxz543-zewail-city-of-science-and-technology/Textual%20Hate%20Content%20Moderation%20with%20BERTweet%20%2B%20LoRA)
+- **🤗 Production Model**: [Hugging Face Model](https://huggingface.co/medoxz543/hate-speech)
 ---
 
 ## 📚 Other Projects
