@@ -51,6 +51,11 @@ I build and deploy efficient machine learning systems with deep expertise in Nat
 
 ---
 
+## 📚 Explore My Work
+
+### [**📂 Detailed Project Portfolio**](PROJECTS.md)  
+*Deep technical case studies with architecture diagrams, results, and lessons learned*
+
 ## 💡 Featured Projects
 
 ### 🛡️ AI-Powered Hate Speech Moderation
