@@ -3,13 +3,8 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=500&color=3B82F6&center=true&vCenter=true&width=500&lines=ML+%7C+NLP+%7C+MLOps;%22I+don't+just+build+models%22;%22I+deploy+them%22" alt="Typing SVG" />
 </p>
 
-<h1 align="center">Mahmoud El‑Bahnasawi</h1>
-
 <p align="center">
-  <a href="https://el-bahnasawi.github.io/Portfolio/"><strong>✨ Portfolio ✨</strong></a>
-</p>
-
-<p align="center">
+  <a href="https://el-bahnasawi.github.io/Portfolio/"><img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white" /></a>
   <img src="https://img.shields.io/badge/ML_Engineer-3B82F6?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Fresh_Graduate-Zewail_City-22C55E?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Available_for-part--time_freelance-8B5CF6?style=for-the-badge" />
@@ -17,7 +12,7 @@
 
 <br/>
 
-## 👋 I'm Mahmoud El‑Bahnasawi
+## 👋 I'm Mahmoud El-Bahnasawi
 
 I’m an ML engineer, fresh graduate from **Zewail City of Science and Technology**.  
 I build production‑ready machine learning systems – not just notebooks. My focus is **ML, NLP, and MLOps**.
@@ -53,8 +48,9 @@ I turn ideas into deployed services that are measurable, efficient, and actually
 
 ## 🚀 Featured Projects
 
-### 🛡️ AI‑Powered Hate Speech Moderation
-**BERTweet · LoRA · FastAPI · Streamlit · Supabase · W&B**  
+<details>
+<summary><b>🛡️ AI‑Powered Hate Speech Moderation</b> – BERTweet · LoRA · FastAPI · Streamlit · Supabase · W&B</summary>
+
 `84.5% Macro‑F1` `+4.5% over MetaHate` `sub‑second inference` `1.37% trainable`
 
 - Real‑time browser extension that blurs hateful text on Twitter & YouTube
@@ -69,9 +65,13 @@ I turn ideas into deployed services that are measurable, efficient, and actually
   <a href="https://huggingface.co/medoxz543/hate-speech"><img src="https://img.shields.io/badge/Hugging_Face_Model-FFD21E?logo=huggingface&logoColor=black&style=for-the-badge" /></a>
 </p>
 
+</details>
 
-### 📊 Graph‑Based Extractive Summarization
-**SBERT · PageRank · NetworkX · Streamlit**  
+<br/>
+
+<details>
+<summary><b>📊 Graph‑Based Extractive Summarization</b> – SBERT · PageRank · NetworkX · Streamlit</summary>
+
 `ROUGE L2 ≈ 0.41` `~0.04s/article`
 
 - Semantic graph summarization with SBERT embeddings + PageRank
@@ -82,10 +82,13 @@ I turn ideas into deployed services that are measurable, efficient, and actually
   <a href="https://github.com/El-Bahnasawi/Graph-Based-Text-Summarization"><img src="https://img.shields.io/badge/Code-181717?logo=github&logoColor=white&style=for-the-badge" /></a>
   <a href="https://graph-based-text-summarization.streamlit.app/"><img src="https://img.shields.io/badge/Live_Demo-FF4B4B?logo=streamlit&logoColor=white&style=for-the-badge" /></a>
 </p>
+</details>
+
 <br/>
 
-### 🎯 Walmart Sales Analytics Dashboard
-**Plotly Dash · Docker · scikit‑learn · Render**  
+<details>
+<summary><b>🎯 Walmart Sales Analytics Dashboard</b> – Plotly Dash · Docker · scikit‑learn · Render</summary>
+
 `45 stores × 98 departments` `store segmentation (4 tiers)` `holiday impact: +42% sales`
 
 - Multi‑tab dashboard for retail analytics and forecasting
@@ -96,10 +99,13 @@ I turn ideas into deployed services that are measurable, efficient, and actually
   <a href="https://github.com/El-Bahnasawi/Walmart-Dataset-Analysis"><img src="https://img.shields.io/badge/Code-181717?logo=github&logoColor=white&style=for-the-badge" /></a>
   <a href="https://walmart-dataset-analysis.onrender.com/"><img src="https://img.shields.io/badge/Live_Demo-46B3A0?logo=render&logoColor=white&style=for-the-badge" /></a>
 </p>
+</details>
+
 <br/>
 
-### 🔬 U.S. Crime Data Analysis & Recidivism Prediction
-**XGBoost · Plotly · scikit‑learn · UMAP**  
+<details>
+<summary><b>🔬 U.S. Crime Data Analysis & Recidivism Prediction</b> – XGBoost · Plotly · scikit‑learn · UMAP</summary>
+
 `98–100% accuracy` `t‑test p=0.383 (firearm laws)`
 
 - 30‑year trend analysis and policy impact assessment
@@ -109,6 +115,7 @@ I turn ideas into deployed services that are measurable, efficient, and actually
 <p align="left">
   <a href="https://github.com/El-Bahnasawi/Analyzing-U.S.-Crime-Data"><img src="https://img.shields.io/badge/Code-181717?logo=github&logoColor=white&style=for-the-badge" /></a>
 </p>
+</details>
 
 <br/>
 
