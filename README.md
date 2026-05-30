@@ -1,135 +1,146 @@
-# 👋 Mahmoud El-Bahnasawi
+<!-- Animated header -->
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=500&color=3B82F6&center=true&vCenter=true&width=500&lines=ML+%7C+NLP+%7C+MLOps;%22I+don't+just+build+models%22;%22I+deploy+them%22" alt="Typing SVG" />
+</p>
 
-**ML engineer shipping NLP systems**  
-Built sub-second hate-speech moderation with **BERTweet + LoRA**, FastAPI on GPU, and real user feedback.
+<h1 align="center">Mahmoud El‑Bahnasawi</h1>
 
-**Live:** **[Repo](https://github.com/El-Bahnasawi/AI-Powered-Textual-Hate-Content-Moderation)** • **[Demo](https://hate-speech-detection-app.streamlit.app/)** • **[W&B](https://wandb.ai/medoxz543-zewail-city-of-science-and-technology/Textual%20Hate%20Content%20Moderation%20with%20BERTweet%20%2B%20LoRA?nw=nwusermedoxz543)** • **[Model](https://huggingface.co/medoxz543/hate-speech)**
+<p align="center">
+  <a href="https://el-bahnasawi.github.io/Portfolio/"><strong>✨ Portfolio ✨</strong></a>
+</p>
 
----
+<p align="center">
+  <img src="https://img.shields.io/badge/ML_Engineer-3B82F6?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Fresh_Graduate-Zewail_City-22C55E?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Available_for-part--time_freelance-8B5CF6?style=for-the-badge" />
+</p>
 
-## 🔥 Highlights
+<br/>
 
-- **84.5% Macro-F1** on 530k+ tweets (**+4.5% over MetaHate**)
-- **LoRA fine-tuning** with **1.4% weight updates** - efficient and effective
-- **Sub-second inference** via FastAPI on Hugging Face GPU
-- **Full-stack system**: browser extension → API → feedback DB → active learning
+## 👋 I'm Mahmoud El‑Bahnasawi
 
----
+I’m an ML engineer, fresh graduate from **Zewail City of Science and Technology**.  
+I build production‑ready machine learning systems – not just notebooks. My focus is **ML, NLP, and MLOps**.
 
-## 🚀 What I Build
+I turn ideas into deployed services that are measurable, efficient, and actually used.
 
-- **Production NLP**: Fine-tuned transformers that actually ship
-- **Measurable Systems**: Clear latency and accuracy targets from day one  
-- **User-Facing ML**: Demos and extensions that validate real-world usefulness
-- **Instrumented Workflows**: W&B for honest, reproducible metrics
-- **Feedback Loops**: Systems that learn from real user interactions
+> 🚀 **Currently focusing on**: RAG systems, advanced MLOps (CI/CD), and cloud infrastructure.
 
----
+<br/>
 
-## 🛠️ Stack
+## 💼 What I can do for you
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![HuggingFace](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Weights&Biases](https://img.shields.io/badge/Weights_&_Biases-FFBE00?style=for-the-badge&logo=weightsandbiases&logoColor=black)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
+| Service | What that means |
+|---------|----------------|
+| 📊 **Data Analysis & Visualization** | Interactive dashboards (Plotly, Streamlit), exploratory data analysis, actionable insights. |
+| 🧠 **Machine Learning Modeling** | Classification, regression, time series forecasting – with clean, reproducible code. |
+| 📝 **Natural Language Processing** | Sentiment analysis, text classification, summarization. Fine‑tuning transformers (BERT) with LoRA. |
+| ⚡ **Efficient GPU Training** | LoRA fine‑tuning, memory optimization, maximizing hardware utilization. |
+| ☁️ **MLOps (growing)** | Experiment tracking (W&B), containerization (Docker), CI/CD basics. Learning multi‑container apps & GitHub Actions. |
 
----
+<br/>
 
-## 🛡️ AI-Powered Hate Speech Moderation
+## 📊 Quick metrics
 
-### TL;DR
-Three-tier pipeline: **regex pre-filter** → **LoRA-tuned BERTweet** → **decision service**. Real-time moderation via browser extension and web UI, with Supabase feedback for continuous learning.
+<p align="center">
+  <img src="https://img.shields.io/badge/Macro_F1-84.5%25-3B82F6?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Model_Size-100×_smaller_than_14B_LLM-22C55E?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Summarization-0.04s_per_article-8B5CF6?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Trainable_Params-1.37%25_of_BERTweet-EF4444?style=for-the-badge" />
+</p>
 
-### 🎯 Results That Matter
-- **84.5% Macro-F1** on 530k+ tweets (beats MetaHate by +4.5%)
-- **1.4% weights updated** via LoRA - highly parameter-efficient  
-- **Sub-second inference** on GPU-backed FastAPI
-- **Active learning** pipeline with Supabase feedback storage
+<br/>
 
-### 🔥 System Architecture - See the Magic!
-<details>
-<summary>🚀 **CLICK TO SEE THE FULL SYSTEM FLOW** → *This is where the engineering happens!*</summary>
-<br>
+## 🚀 Featured Projects
 
-![Hate Speech Moderation System Architecture](system_overview.png)
+### 🛡️ AI‑Powered Hate Speech Moderation
+**BERTweet · LoRA · FastAPI · Streamlit · Supabase · W&B**  
+`84.5% Macro‑F1` `+4.5% over MetaHate` `sub‑second inference` `1.37% trainable`
 
-**🎯 How It Actually Works:**
-- **Real-time Input**: Browser extension + Streamlit demo capture user text
-- **Smart Filtering**: Regex catches obvious slurs → BERTweet handles nuanced cases  
-- **GPU Power**: Hugging Face Spaces with T4 GPU for lightning inference
-- **Continuous Learning**: Supabase stores edge cases to make the model smarter
-- **Instant Decisions**: Three clear thresholds with visual feedback
+- Real‑time browser extension that blurs hateful text on Twitter & YouTube
+- Three‑tier pipeline: regex pre‑filter → LoRA‑tuned BERTweet → decision service
+- Feedback stored in Supabase for continuous active learning
+- Production deployment: GPU‑backed FastAPI on Hugging Face + Streamlit demo
 
-*This isn't just a model - it's a production system that learns and improves!*
-</details>
+<p align="left">
+  <a href="https://github.com/El-Bahnasawi/AI-Powered-Textual-Hate-Content-Moderation"><img src="https://img.shields.io/badge/Code-181717?logo=github&logoColor=white&style=for-the-badge" /></a>
+  <a href="https://hate-speech-detection-app.streamlit.app/"><img src="https://img.shields.io/badge/Live_Demo-FF4B4B?logo=streamlit&logoColor=white&style=for-the-badge" /></a>
+  <a href="https://wandb.ai/medoxz543-zewail-city-of-science-and-technology/Textual%20Hate%20Content%20Moderation%20with%20BERTweet%20%2B%20LoRA"><img src="https://img.shields.io/badge/W%26B_Logs-FFBE00?logo=weightsandbiases&logoColor=black&style=for-the-badge" /></a>
+  <a href="https://huggingface.co/medoxz543/hate-speech"><img src="https://img.shields.io/badge/Hugging_Face_Model-FFD21E?logo=huggingface&logoColor=black&style=for-the-badge" /></a>
+</p>
 
-### ⚡ Smart Decision Logic
-| Hate Score | Action | Blocked By | UI |
-|------------|--------|------------|----|
-| < 0.40 | ✅ Allow | - | 🟢 |
-| 0.40 - 0.99 | 🚫 Block | **Fine-tuned BERTweet** | 🟠 |
-| = 1.00 | 🚫 Block | **Regex Rules** | 🔴 |
 
-**Key Insight**: Regex handles obvious cases instantly, BERTweet catches nuanced hate speech!
+### 📊 Graph‑Based Extractive Summarization
+**SBERT · PageRank · NetworkX · Streamlit**  
+`ROUGE L2 ≈ 0.41` `~0.04s/article`
 
-### 🔗 Live & Working Right Now
-- **📁 Full Code**: [AI-Powered-Textual-Hate-Content-Moderation](https://github.com/El-Bahnasawi/AI-Powered-Textual-Hate-Content-Moderation)  
-- **🎯 Try the Demo**: [Live Streamlit App](https://hate-speech-detection-app.streamlit.app/)
-- **📊 Real Training Logs**: [W&B Dashboard](https://wandb.ai/medoxz543-zewail-city-of-science-and-technology/Textual%20Hate%20Content%20Moderation%20with%20BERTweet%20%2B%20LoRA)
-- **🤗 Production Model**: [Hugging Face Model](https://huggingface.co/medoxz543/hate-speech)
----
+- Semantic graph summarization with SBERT embeddings + PageRank
+- Entity‑aware graph construction and ablation studies
+- Interactive Streamlit app with real‑time graph visualization
 
-## 📚 Other Projects
+<p align="left">
+  <a href="https://github.com/El-Bahnasawi/Graph-Based-Text-Summarization"><img src="https://img.shields.io/badge/Code-181717?logo=github&logoColor=white&style=for-the-badge" /></a>
+  <a href="https://graph-based-text-summarization.streamlit.app/"><img src="https://img.shields.io/badge/Live_Demo-FF4B4B?logo=streamlit&logoColor=white&style=for-the-badge" /></a>
+</p>
+<br/>
 
-### 📊 Graph-Based Text Summarization
-<details>
-<summary>SBERT · PageRank · ROUGE L2 ≈ 0.41 · Streamlit</summary>
+### 🎯 Walmart Sales Analytics Dashboard
+**Plotly Dash · Docker · scikit‑learn · Render**  
+`45 stores × 98 departments` `store segmentation (4 tiers)` `holiday impact: +42% sales`
 
-- Semantic graph summarization with SBERT + PageRank
-- **ROUGE L2 ≈ 0.41** on CNN/DailyMail
-- **~0.04s/article** inference, interactive visualization
+- Multi‑tab dashboard for retail analytics and forecasting
+- K‑Means & GMM clustering to identify performance tiers
+- Dockerized deployment on Render, used by analysts for decision support
 
-**Repo**: https://github.com/El-Bahnasawi/Graph-Based-Text-Summarization  
-**Demo**: https://graph-based-text-summarization.streamlit.app/
-</details>
+<p align="left">
+  <a href="https://github.com/El-Bahnasawi/Walmart-Dataset-Analysis"><img src="https://img.shields.io/badge/Code-181717?logo=github&logoColor=white&style=for-the-badge" /></a>
+  <a href="https://walmart-dataset-analysis.onrender.com/"><img src="https://img.shields.io/badge/Live_Demo-46B3A0?logo=render&logoColor=white&style=for-the-badge" /></a>
+</p>
+<br/>
 
-### 🎯 Walmart Sales Analytics  
-<details>
-<summary>Plotly Dash · Docker · Clustering · Render</summary>
+### 🔬 U.S. Crime Data Analysis & Recidivism Prediction
+**XGBoost · Plotly · scikit‑learn · UMAP**  
+`98–100% accuracy` `t‑test p=0.383 (firearm laws)`
 
-- Multi-tab dashboard for 45 stores × 98 departments
-- Store segmentation (4 tiers) and holiday impact analysis
-- Dockerized deployment on Render
+- 30‑year trend analysis and policy impact assessment
+- Recidivism prediction with interpretable features (RFE, VIF)
+- Statistical testing of firearm laws' effect on crime rates
 
-**Repo**: https://github.com/El-Bahnasawi/Walmart-Dataset-Analysis  
-**Live**: https://walmart-dataset-analysis.onrender.com/
-</details>
+<p align="left">
+  <a href="https://github.com/El-Bahnasawi/Analyzing-U.S.-Crime-Data"><img src="https://img.shields.io/badge/Code-181717?logo=github&logoColor=white&style=for-the-badge" /></a>
+</p>
 
-### 🔬 U.S. Crime Analysis
-<details>
-<summary>XGBoost · Statistical Testing · Plotly</summary>
+<br/>
 
-- 30-year trend analysis and policy impact assessment
-- Recidivism prediction (98-100% accuracy) with interpretable features
+## 📄 Featured Publication
 
-**Repo**: https://github.com/El-Bahnasawi/Analyzing-U.S.-Crime-Data
-</details>
+**Efficient Hate Speech Detection: A Three‑Layer LoRA‑Tuned BERTweet Framework**  
+*Mahmoud El‑Bahnasawi (under supervision of Dr. Doaa Shawky)* — arXiv preprint, 2025
 
----
+> A parameter‑efficient framework that achieves 94% of the performance of a 14B parameter LLM (SafePhi) using a model 100× smaller (134M vs. 14B). LoRA fine‑tuning requires only 1.87M trainable parameters (1.37% of BERTweet's total) while outperforming traditional BERT‑based approaches.
 
-## 🎯 Focus Areas
+<p align="left">
+  <a href="https://arxiv.org/abs/2511.06051"><img src="https://img.shields.io/badge/arXiv-2511.06051-B31B1B?logo=arxiv&logoColor=white&style=for-the-badge" /></a>
+  <a href="https://github.com/El-Bahnasawi/AI-Powered-Textual-Hate-Content-Moderation"><img src="https://img.shields.io/badge/Code-181717?logo=github&logoColor=white&style=for-the-badge" /></a>
+</p>
 
-- **Production NLP**: Fine-tuning, optimization, and deployment
-- **ML Systems**: End-to-end pipelines with monitoring and feedback
-- **Practical MLOps**: Experiment tracking, deployment, and iteration
+<br/>
 
----
+## 🛠️ Tech Stack
 
-## 📫 Reach Out
+| Category | Tools |
+|----------|-------|
+| **Core ML & NLP** | ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white) ![HuggingFace](https://img.shields.io/badge/Hugging_Face-FFD21E?logo=huggingface&logoColor=black) ![Scikit‑learn](https://img.shields.io/badge/scikit--learn-F7931E?logo=scikit-learn&logoColor=white) |
+| **MLOps & Deployment** | ![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white) ![Weights&Biases](https://img.shields.io/badge/Weights_&_Biases-FFBE00?logo=weightsandbiases&logoColor=black) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?logo=supabase&logoColor=white) ![Render](https://img.shields.io/badge/Render-46B3A0?logo=render&logoColor=white) |
+| **Data & Visualization** | ![Pandas](https://img.shields.io/badge/Pandas-2C2D72?logo=pandas&logoColor=white) ![Plotly](https://img.shields.io/badge/Plotly-3F4F75?logo=plotly&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=white) ![Mermaid](https://img.shields.io/badge/Mermaid-FF6B6B?logo=mermaid&logoColor=white) |
+| **Familiar / Learning** | Multi‑container Docker, GitHub Actions, RAG, Azure ML |
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mahmoud-elbahnasawi1/)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:m.elbahnasawi.ai@gmail.com)
+<br/>
+
+## 📫 Connect with me
+
+<p align="left">
+  <a href="https://linkedin.com/in/mahmoud-elbahnasawi1"><img src="https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white&style=for-the-badge" /></a>
+  <a href="https://github.com/El-Bahnasawi"><img src="https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white&style=for-the-badge" /></a>
+  <a href="mailto:m.elbahnasawi.ai@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white&style=for-the-badge" /></a>
+</p>
