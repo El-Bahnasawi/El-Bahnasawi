@@ -35,17 +35,6 @@ I turn ideas into deployed services that are measurable, efficient, and actually
 
 <br/>
 
-## 📊 Quick metrics
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Macro_F1-84.5%25-3B82F6?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Model_Size-100×_smaller_than_14B_LLM-22C55E?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Summarization-0.04s_per_article-8B5CF6?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Trainable_Params-1.37%25_of_BERTweet-EF4444?style=for-the-badge" />
-</p>
-
-<br/>
-
 ## 🚀 Featured Projects
 
 <details>
